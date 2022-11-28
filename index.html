@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- Github: https://github.com/cityadn/Coursework2.git -->
+<html lang="en" dir="ltr">
+  <head>
+    <title>Luca Home Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <!--Meta Tags: https://www.w3schools.com/tags/tag_meta.asp-->
+    <link rel="stylesheet" href="./css/stylesheet1.css" type="text/css" >
+		<link rel="icon" type="image\x-icon" href=".\images\Luca_Favicon.png">
+    <!-- linked stylesheets: https://www.w3schools.com/html/html_css.asp -->
+    <!-- Favicons: https://www.w3schools.com/html/html_favicon.asp -->
+  </head>
+  <body class="bgimage" link=white vlink=white alink=white>
+
+  <div class="bgimage-white">
+      <div class="container">
+          <div class = "topnav">
+            <nav>
+             <!-- nav bars: https://www.w3schools.com/Css/css_navbar.asp -->
+             <a href='.\Reservations_Page.html'><button class="button_class1">Reservations</button></a>
+             <a></a>
+             <a></a>
+             <a></a>
+             <a></a>
+             <a href='.\Menus_Page.html'>Menus</a> <a>|</a>
+             <a href='.\Private_Dining_Page.html'>Private Dining</a> <a>|</a>
+             <a href='.\Christmas_Page.html'>Christmas</a> <a>|</a>
+             <a href='.\Rewarding_Careers-Careers_Section.html'>Careers</a> <a>|</a>
+             <a href='https://github.com/cityadn/Coursework2.git'>Github</a>
+            </nav>
+
+          </div>
+      </div>
+
+    <div class="img brightnessfilter">
+      <!-- Slideshows: https://www.w3schools.com/w3css/w3css_slideshow.asp -->
+      <img class="mySlides" src=".\images\Luca_Art_Pattern.jpg" alt="Mosaic, red yellow, brown and black, with hints of grey and light blue">
+      <img class="mySlides" src=".\images\Fireplace.jpg" alt="Fireplace">
+      <img class="mySlides" src=".\images\Green_Luca.jpg" alt="Outside of the Luca Restaurant, Green tiles and decorations">
+      <img class="mySlides" src=".\images\Breakfast_Table.jpg" alt="Breakfast_Table in the morning">
+      <img class="mySlides" src=".\images\Bar.jpg" alt="Bar in the night, drinks next to bartender station">
+      <img class="mySlides" src=".\images\Table_Morning.jpg" alt="Table setting at midday">
+      <img class="mySlides" src=".\images\Bar_Table.jpg" alt="Table at the bar at night">
+    </div>
+
+
+    <div>
+      <img class="over-img" src="https://luca.restaurant/wp-content/themes/luca-v2/assets/img/luca-logo.svg" alt="Luca Logo">
+
+      <!-- Curtain Menus/Navigation Menu: https://www.w3schools.com/howto/howto_js_curtain_menu.asp -->
+      <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content" >
+        <a href=".\Restaurant_Page.html">RESTAURANT</a>
+        <a href=".\Christmas_Page.html">CHRISTMAS</a>
+        <a href=".\Luca_Bar_Page.html">LUCA BAR</a>
+        <a href=".\Gallery_Page.html">GALLERY</a>
+        <a href=".\Private_Dining_Page.html">PRIVATE DINING</a>
+        <a href=".\Gifts_and_Experiences.html">GIFTS AND EXPERIENCES</a>
+        <a href=".\Reservations_Page.html">RESERVATIONS</a>
+        <a href=".\Menus_Page.html">MENUS</a>
+        <a href=".\Hours_and_Location.html">HOURS AND LOCATION</a>
+        <a href=".\Clove_Club_Group_Page.html">THE CLOVE CLUB GROUP</a>
+        <a href=".\Rewarding_Careers-Careers_Section.html">CAREERS</a>
+      </div>
+      </div>
+      <!-- Span tag: https://www.w3schools.com/tags/tag_span.asp -->
+      <span onclick="openNav()">
+      <div class="top-right"><button class="transparent button_class2"><img class="icon-nav" src="https://luca.restaurant/wp-content/themes/luca-v2/assets/img/icon-nav-open-white.svg" alt="Menu Flaticon/Icon"></button></div>
+      </span>
+    </div>
+
+    <div class="container2">
+      <div class="bottom-left"><a href="https://instagram.com/luca.restaurant?igshid=YmMyMTA2M2Y=">Instagram</a></div>
+      <div class="bottom-right"> <a href="tel:02038593000">020 3859 3000</a> <a>|</a> <a href="https://www.google.co.uk/maps/place/Luca/@51.5221936,-0.103368,17z/data=!4m13!1m7!3m6!1s0x48761b511729cc2b:0x2c2da3589331eaf9!2s88+St+John+St,+Clerkenwell,+London+EC1M+4EL!3b1!8m2!3d51.5221836!4d-0.1020119!3m4!1s0x48761b51100724a7:0xc779912dc42da7d4!8m2!3d51.5222538!4d-0.1018462">
+              88 St Johns St, Clerkenwell, London, EC1M, 4EH</a>
+    </div>
+
+    <!-- Curtain Menus/Navigation Menu: https://www.w3schools.com/howto/howto_js_curtain_menu.asp -->
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 5000);
+      }
+
+    </script>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+      }
+    </script>
+  </div>
+
+  <div>
+    <div class="text-block text-block--large">
+      <h2>British seasonal ingredients through an Italian lens</h2>
+    </div>
+  </div>
+
+  </body>
+</html>

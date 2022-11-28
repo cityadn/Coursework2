@@ -1,0 +1,231 @@
+.bgimage {
+  background-image: url("../images/background_image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bgimage-red {
+  background-color: rgb(251,105,98);
+  opacity: 0.7;
+  height: 713px;
+}
+
+body{
+  font: inherit;
+  font-family: Filosofia, Georgia, serif;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  position: absolute;
+  margin: 10px;
+  width: auto;
+  line-break: normal;
+  opacity: 1;
+}
+
+.topnav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* The navbar: https://www.w3schools.com/howto/howto_js_topnav.asp */
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+  z-index: 1000;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  opacity: 1;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px;
+  text-decoration: none;
+  font-size: 19px;
+  z-index: 1000;
+  box-sizing: border-box;
+  line-break: normal;
+  margin-top: 24px;
+  margin-left: 5px;
+}
+
+.link_black {
+  color: black;
+  text-decoration: none;
+}
+
+.link_black:hover {
+  text-decoration: none;
+}
+
+.button_class1 {
+  box-sizing: border-box;
+  transition: all 250ms ease-out;
+  display: block;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  text-transform: none;
+  overflow: visible;
+  font: inherit;
+  margin-top: -8px;
+  margin-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 13px;
+  font-size: 1em;
+}
+
+img {
+  position: absolute;
+  display: block;
+  object-fit: cover;
+  font-family: "object-fit: cover;";
+  opacity: 1;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.trim {
+  max-width: 750px;
+  width: 100%;
+  height: 100%;
+  float: right;
+  top: 10;
+  right: 0;
+}
+
+.left-image {
+  float: left;
+  display: block;
+  left: 267px;
+  top: 147px;
+  width: 230px;
+  max-height: 60px;
+  filter: brightness(250%);
+}
+
+.centered {
+  position: absolute;
+  top: 230px;
+  left: 220px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Georgia,serif;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+}
+
+.button_position {
+  position: absolute;
+  top: 540px;
+  left: 280px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Georgia,serif;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  background-color: transparent;
+  border: 1px solid black;
+  overflow: visible;
+  box-sizing: border-box;
+  transition: all 250ms ease-out;
+  line-height: 1;
+  display: block;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.button_position:hover {
+  background-color: white;
+  filter: brightness(190%);
+}
+
+p {
+  word-spacing: 0.7px;
+  line-height: 1.6;
+}
+
+.brightnessfilter {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  filter: brightness(190%);
+}
+
+.icon-nav {
+  display: block;
+  cursor: pointer;
+  height: 180%;
+  width: 180%;
+}
+
+.transparent {
+  background-color: transparent;
+  border: none;
+}
+
+/*Curtain Menu: https://www.w3schools.com/howto/howto_js_curtain_menu.asp*/
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  opacity: 0.9;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 2%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  text-decoration: underline;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}

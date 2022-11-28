@@ -1,0 +1,337 @@
+.bgimage {
+  background-image: url("../images/background_image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bgcolor {
+  background-color: #ffffc8;
+}
+
+.bgimage-blue {
+  background-color: #5e829e;
+  opacity: 0.8;
+  height: 713px;
+}
+
+/* Input Tag: https://www.w3schools.com/tags/tag_input.asp*/
+input {
+  width: 60%;
+  appearance: none;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  border: 0.8px solid;
+  padding: 12px;
+  background-color: transparent;
+}
+
+/*placeholder: https://www.w3schools.com/TAGS/att_input_placeholder.asp */
+::placeholder {
+  font: inherit;
+  font-family: Georgia, serif;
+  color: black;
+}
+
+body{
+  font: inherit;
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  width: 100vw;
+  height: 100vh;
+}
+
+.centered {
+  position: absolute;
+  top: 60px;
+  left: 505px;
+  text-align: center;
+  font-size: 0.83em;
+  font-family: Georgia,serif;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  width: 500px;
+  max-height: 60px;
+  line-height: 1.5;
+}
+
+.centered_sign_up {
+  position: absolute;
+  top: 235px;
+  left: 505px;
+  text-align: center;
+  font-size: 0.83em;
+  font-family: Georgia,serif;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  width: 500px;
+  max-height: 60px;
+  line-height: 1.5;
+}
+
+.centered2 {
+  display: inline-block;
+  position: absolute;
+  top: 260px;
+  left: 535px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Georgia,serif;
+  font-weight: 50;
+  -webkit-font-smoothing: antialiased;
+  width: 440px;
+  color: #000;
+}
+
+.centered3 {
+  position: absolute;
+  top: 310px;
+  left: 535px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Georgia,serif;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  width: 440px;
+  max-height: 60px;
+}
+
+.centered4 {
+  position: absolute;
+  top: 360px;
+  left: 535px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Georgia,serif;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  width: 440px;
+  max-height: 60px;
+}
+
+img {
+  position: absolute;
+  display: block;
+  object-fit: cover;
+  font-family: "object-fit: cover;";
+  opacity: 1;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.logo-image {
+  display: block;
+  left: 640px;
+  top: 20px;
+  width: 230px;
+  max-height: 80px;
+}
+
+.button_class1 {
+  box-sizing: border-box;
+  transition: all 250ms ease-out;
+  display: block;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  text-transform: none;
+  overflow: visible;
+  font: inherit;
+  margin-top: -8px;
+  margin-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 13px;
+  font-size: 1em;
+}
+
+.button_class_1:hover {
+  text-decoration: none;
+}
+
+.button_class2 {
+  box-sizing: border-box;
+  transition: all 250ms ease-out;
+  display: block;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  text-transform: none;
+  overflow: visible;
+  height: 1.75rem;
+  width: 1.95rem;
+}
+
+/* The navbar: https://www.w3schools.com/howto/howto_js_topnav.asp */
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+  z-index: 1000;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  opacity: 1;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 0px;
+  text-decoration: none;
+  font-size: 19px;
+  z-index: 1000;
+  box-sizing: border-box;
+  line-break: normal;
+  margin-top: 24px;
+  margin-left: 5px;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.button_position {
+  position: absolute;
+  top: 460px;
+  left: 690px;
+  text-align: center;
+  font-size: 12px;
+  font-family: Georgia,serif;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  background-color: transparent;
+  border: 1px solid black;
+  overflow: visible;
+  box-sizing: border-box;
+  transition: all 250ms ease-out;
+  line-height: 1;
+  display: block;
+  cursor: pointer;
+  padding: 11px;
+  border-radius: 12px;
+}
+
+.clove_position {
+  border: 0;
+  word-spacing: 0;
+  letter-spacing: 0.3em;
+  position: relative;
+  top: 460px;
+  left: 625px;
+  text-align: center;
+  font-size: 11px;
+  font-family: Georgia,serif;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: fill 250ms;
+  color: beige;
+  overflow: hidden;
+  background-color: transparent;
+  filter: brightness(80%);
+}
+
+.clove_position:hover {
+  color: white;
+}
+
+.button_position:hover {
+  background-color: white;
+  filter: brightness(190%);
+}
+
+.link_position_1 {
+  border: 0;
+  position: relative;
+  top: 505px;
+  left: 668px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Georgia,serif;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  transition: fill 250ms;
+  color: #c2be8a;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.link_position_1:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.link_position_2 {
+  border: 0;
+  position: relative;
+  top: 525px;
+  left: 473px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Georgia,serif;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  transition: fill 250ms;
+  color: #c2be8a;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.link_position_2:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.link_position_3 {
+  border: 0;
+  position: relative;
+  top: 545px;
+  left: 328px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Georgia,serif;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  transition: fill 250ms;
+  color: #c2be8a;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.link_position_3:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+a.subscribe {
+  text-decoration: none;
+}
+
+a.subscribe:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.line-spacing {
+  line-height: 2;
+}

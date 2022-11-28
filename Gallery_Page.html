@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Gallery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <!--Meta Tags: https://www.w3schools.com/tags/tag_meta.asp-->
+    <link rel="stylesheet" href="./css/stylesheet4.css" type="text/css" >
+		<link rel="icon" type="image\x-icon" href=".\images\Luca_Favicon.png">
+    <!-- linked stylesheets: https://www.w3schools.com/html/html_css.asp -->
+    <!-- Favicons: https://www.w3schools.com/html/html_favicon.asp -->
+
+  </head>
+  <body>
+    <!-- Slideshows: https://www.w3schools.com/w3css/w3css_slideshow.asp -->
+    <div class="content display-container">
+      <img class="mySlides" src=".\images\Slideshow_Food\First_Food.jpg">
+      <img class="mySlides" src=".\images\Slideshow_Food\Second_Food.jpg">
+      <img class="mySlides" src=".\images\Slideshow_Food\Third_Food.jpg">
+      <img class="mySlides" src=".\images\Slideshow_Food\Fourth_Food.jpg">
+      <img class="mySlides" src=".\images\Slideshow_Food\Fifth_Food.jpg">
+      <img class="mySlides" src=".\images\Slideshow_Food\Sixth_Food.jpg">
+      <img class="mySlides" src=".\images\Slideshow_Food\Seventh_Food.jpg">
+      <img class="mySlides" src=".\images\Slideshow_Food\Eighth_Food.jpg">
+      <div class="center container section large text-white display-bottommiddle">
+        <div class="left hover-text-khaki top" onclick="plusDivs(-1)"><img class="arrow" src="https://luca.restaurant/wp-content/themes/luca-v2/assets/img/icon-arrow-left.svg"></div>
+        <div class="right hover-text-khaki top" onclick="plusDivs(1)"><img class="arrow" src="https://luca.restaurant/wp-content/themes/luca-v2/assets/img/icon-arrow-right.svg"></div>
+        <span class="badge demo border transparent hover-white" onclick="currentDiv(1)"></span>
+        <span class="badge demo border transparent hover-white" onclick="currentDiv(2)"></span>
+        <span class="badge demo border transparent hover-white" onclick="currentDiv(3)"></span>
+        <span class="badge demo border transparent hover-white" onclick="currentDiv(4)"></span>
+        <span class="badge demo border transparent hover-white" onclick="currentDiv(5)"></span>
+        <span class="badge demo border transparent hover-white" onclick="currentDiv(6)"></span>
+        <span class="badge demo border transparent hover-white" onclick="currentDiv(7)"></span>
+      </div>
+    </div>
+
+      <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+
+      function currentDiv(n) {
+        showDivs(slideIndex = n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" white", "");
+        }
+        x[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " white";
+      }
+      </script>
+
+  </body>
+</html>

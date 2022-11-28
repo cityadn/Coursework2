@@ -1,0 +1,438 @@
+.bgimage {
+  background-image: url("../images/background_image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bgimage-red {
+  background-color: rgb(251,105,98);
+  opacity: 0.7;
+  height: 1400px;
+}
+
+body{
+  font: inherit;
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 10px;
+  width: auto;
+  line-break: normal;
+  opacity: 1;
+}
+
+.centered {
+  position: absolute;
+  top: 150px;
+  left: 355px;
+  text-align: center;
+  font-size: 1.175em;
+  font-family: Georgia,serif;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  width: 800px;
+  max-height: 60px;
+  line-height: 1.6;
+  color: black;
+}
+
+.centered_2 {
+  position: absolute;
+  top: 390px;
+  left: 355px;
+  text-align: center;
+  font-size: 1.175em;
+  font-family: Georgia,serif;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  width: 800px;
+  max-height: 60px;
+  line-height: 1.6;
+  color: black;
+  letter-spacing: 0.2;
+}
+
+img {
+  position: absolute;
+  display: block;
+  object-fit: cover;
+  font-family: "object-fit: cover;";
+  opacity: 1;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.logo-image {
+  display: block;
+  left: 635px;
+  top: 80px;
+  width: 230px;
+  max-height: 80px;
+}
+
+/* The navbar: https://www.w3schools.com/howto/howto_js_topnav.asp */
+.topnav {
+  padding-top: 19px;
+  padding-left: 1010px;
+  overflow: hidden;
+  background-color: transparent;
+  z-index: 1000;
+  position: relative;
+  display: inline-block;
+  opacity: 1;
+}
+
+/* Navbar links */
+.topnav a {
+  color: black;
+  text-align: center;
+  padding: 0px;
+  text-decoration: none;
+  font-size: 19px;
+  z-index: 1000;
+  box-sizing: border-box;
+  line-break: normal;
+  margin-top: 24px;
+  margin-left: 5px;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.over-img{
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  opacity: 1;
+  width: 100px;
+}
+
+.over-img_2{
+  position: absolute;
+  top: 23px;
+  left: 20px;
+  opacity: 1;
+}
+
+.over-img_3{
+  position: absolute;
+  top: 470px;
+  left: 200px;
+  opacity: 1;
+  width: 12.5rem;
+  height: 12.5rem;
+}
+
+.over-img_4{
+  position: absolute;
+  top: 470px;
+  left: 655px;
+  opacity: 1;
+  width: 12.5rem;
+  height: 12.5rem;
+}
+
+.over-img_5{
+  position: absolute;
+  top: 470px;
+  left: 1080px;
+  opacity: 1;
+  width: 12.5rem;
+  height: 12.5rem;
+}
+
+.over-img_6{
+  position: absolute;
+  top: 830px;
+  left: 200px;
+  opacity: 1;
+  width: 12.5rem;
+  height: 12.5rem;
+}
+
+.over-img_7{
+  position: absolute;
+  top: 830px;
+  left: 655px;
+  opacity: 1;
+  width: 12.5rem;
+  height: 12.5rem;
+}
+
+.over-img_8{
+  position: absolute;
+  top: 830px;
+  left: 1080px;
+  opacity: 1;
+  width: 12.5rem;
+  height: 12.5rem;
+}
+
+header{
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+.header_1 {
+  position: absolute;
+  top: 680px;
+  left: 236px;
+  letter-spacing: 5px;
+}
+
+.p_a {
+  position: absolute;
+  top: 700px;
+  left: 210px;
+}
+
+.p_a_1 {
+  position: absolute;
+  top: 720px;
+  left: 260px;
+}
+
+.button_a {
+  position: absolute;
+  top: 760px;
+  left: 248px;
+  background-color: transparent;
+  border: 0.5px solid black;
+  font-size: 20px;
+  letter-spacing: 5px;
+  padding: 7px;
+}
+
+.button_a:hover {
+  background-color: white;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.header_2 {
+  position: absolute;
+  top: 680px;
+  left: 687px;
+  letter-spacing: 5px;
+}
+
+.p_b {
+  position: absolute;
+  top: 700px;
+  left: 675px;
+}
+
+.p_b_1 {
+  position: absolute;
+  top: 720px;
+  left: 718px;
+}
+
+.button_b {
+  position: absolute;
+  top: 760px;
+  left: 706px;
+  background-color: transparent;
+  border: 0.5px solid black;
+  font-size: 20px;
+  letter-spacing: 5px;
+  padding: 7px;
+}
+
+.button_b:hover {
+  background-color: white;
+  text-decoration: none;
+}
+
+.header_3 {
+  position: absolute;
+  top: 680px;
+  left: 1063px;
+  letter-spacing: 5px;
+}
+
+.p_c {
+  position: absolute;
+  top: 700px;
+  left: 1085px;
+}
+
+.p_c_1 {
+  position: absolute;
+  top: 720px;
+  left: 1137px;
+}
+
+.button_c {
+  position: absolute;
+  top: 760px;
+  left: 1125px;
+  background-color: transparent;
+  border: 0.5px solid black;
+  font-size: 20px;
+  letter-spacing: 5px;
+  padding: 7px;
+}
+
+.button_c:hover {
+  background-color: white;
+  text-decoration: none;
+}
+
+.header_4 {
+  position: absolute;
+  top: 1050px;
+  left: 220px;
+  letter-spacing: 5px;
+}
+
+.p_d {
+  position: absolute;
+  top: 1070px;
+  left: 166px;
+}
+
+.p_d_1 {
+  position: absolute;
+  top: 1090px;
+  left: 257px;
+}
+
+.button_d {
+  position: absolute;
+  top: 1130px;
+  left: 245px;
+  background-color: transparent;
+  border: 0.5px solid black;
+  font-size: 20px;
+  letter-spacing: 5px;
+  padding: 7px;
+}
+
+.button_d:hover {
+  background-color: white;
+  text-decoration: none;
+}
+
+.header_5 {
+  position: absolute;
+  top: 1050px;
+  left: 600px;
+  letter-spacing: 5px;
+}
+
+.p_e {
+  position: absolute;
+  top: 1070px;
+  left: 712px;
+}
+
+.p_e_1 {
+  position: absolute;
+  top: 1090px;
+  left: 712px;
+}
+
+.button_e {
+  position: absolute;
+  top: 1130px;
+  left: 700px;
+  background-color: transparent;
+  border: 0.5px solid black;
+  font-size: 20px;
+  letter-spacing: 5px;
+  padding: 7px;
+}
+
+.button_e:hover {
+  background-color: white;
+  text-decoration: none;
+}
+
+.header_6 {
+  position: absolute;
+  top: 1050px;
+  left: 1138px;
+  letter-spacing: 5px;
+}
+
+.p_f {
+  position: absolute;
+  top: 1070px;
+  left: 1104px;
+}
+
+.p_f_1 {
+  position: absolute;
+  top: 1090px;
+  left: 1145px;
+}
+
+.button_f {
+  position: absolute;
+  top: 1130px;
+  left: 1133px;
+  background-color: transparent;
+  border: 0.5px solid black;
+  font-size: 20px;
+  letter-spacing: 5px;
+  padding: 7px;
+}
+
+.button_f:hover {
+  background-color: white;
+  text-decoration: none;
+}
+
+.button_position {
+  position: absolute;
+  top: 1250px;
+  left: 640px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Georgia,serif;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  background-color: transparent;
+  border: 1px solid black;
+  overflow: visible;
+  box-sizing: border-box;
+  transition: all 250ms ease-out;
+  line-height: 1;
+  display: block;
+  cursor: pointer;
+  padding: 15px;
+}
+
+/* Brightness: https://www.w3schools.com/cssref/css3_pr_filter.php*/
+.button_position:hover {
+  background-color: white;
+  filter: brightness(190%);
+}

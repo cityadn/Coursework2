@@ -1,0 +1,106 @@
+html {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
+  width:100%;
+}
+
+/* Slideshow classes (all): https://www.w3schools.com/w3css/w3css_slideshow.asp*/
+
+.arrow {
+  height: 40px;
+  width: 40px;
+  margin: 30px;
+}
+
+.left, .right, .badge {
+  cursor: grab;
+  color: white;
+}
+
+.content{
+  margin: 0;
+  width: 1550px;
+  height: 713px;
+}
+
+.badge {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 10px;
+}
+
+.badge:hover {
+  background-color: white;
+  margin: 10px;
+}
+
+.border {
+    border: 4px solid white!important;
+    float: bottom;
+}
+
+.left {
+    cursor: pointer;
+    float: left!important;
+}
+
+.right {
+  cursor: pointer;
+  float: right!important;
+}
+
+.center {
+    text-align: center!important;
+}
+
+.top {
+  padding-bottom: 300px;
+}
+
+.large {
+    font-size: 18px!important;
+}
+
+.section, .code {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+}
+
+.container, .panel {
+    padding: 0.01em 16px;
+}
+
+.display-bottommiddle {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0%);
+}
+
+div {
+  display: block;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.mySlides {
+  height: 800px;
+  display: none;
+  border-style: none;
+  opacity: 1;
+}

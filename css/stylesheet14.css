@@ -1,0 +1,162 @@
+.bgimage {
+  background-image: url("../images/background_image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bgimage-gold {
+  background-color: #e2d8c5;
+  opacity: 0.7;
+  height: 713px;
+}
+
+body{
+  font: inherit;
+  font-family: Filosofia, Georgia, serif;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 10px;
+  width: auto;
+  line-break: normal;
+  opacity: 1;
+}
+
+.centered_careers {
+  position: absolute;
+  top: 160px;
+  left: 100px;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.5;
+  font-family: Georgia,serif;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+}
+
+.trim {
+  max-width: 750px;
+  width: 100%;
+  height: 100%;
+  float: right;
+  top: 10;
+  right: 0;
+}
+
+.left-image-careers {
+  float: left;
+  display: block;
+  left: 267px;
+  top: 110px;
+  width: 230px;
+  max-height: 60px;
+  filter: brightness(250%);
+}
+
+/* Brightness: https://www.w3schools.com/cssref/css3_pr_filter.php*/
+.brightnessfilter {
+  filter: brightness(170%);
+}
+
+.logo-image {
+  display: block;
+  left: 675px;
+  top: 80px;
+  width: 230px;
+  max-height: 80px;
+}
+
+.button_position {
+  position: absolute;
+  top: 530px;
+  left: 280px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Georgia,serif;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  background-color: transparent;
+  border: 1px solid black;
+  overflow: visible;
+  box-sizing: border-box;
+  transition: all 250ms ease-out;
+  line-height: 1;
+  display: block;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.button_position:hover {
+  background-color: white;
+  filter: brightness(190%);
+}
+
+/* The navbar: https://www.w3schools.com/howto/howto_js_topnav.asp */
+.topnav {
+  padding-top: 19px;
+  padding-left: 1010px;
+  overflow: hidden;
+  background-color: transparent;
+  z-index: 1000;
+  position: relative;
+  display: inline-block;
+  opacity: 1;
+}
+
+/* Navbar links */
+.topnav a {
+  color: black;
+  text-align: center;
+  padding: 0px;
+  text-decoration: none;
+  font-size: 19px;
+  z-index: 1000;
+  box-sizing: border-box;
+  line-break: normal;
+  margin-top: 24px;
+  margin-left: 5px;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  position: absolute;
+  display: block;
+  object-fit: cover;
+  font-family: "object-fit: cover;";
+  opacity: 1;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.over-img{
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  opacity: 1;
+  width: 100px;
+}
+
+.over-img_2{
+  position: absolute;
+  top: 23px;
+  left: 20px;
+  opacity: 1;
+}
